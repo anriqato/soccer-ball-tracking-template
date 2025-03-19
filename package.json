@@ -1,0 +1,32 @@
+{
+  "name": "soccer-ball-tracking-poc",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^3.21.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
+    "expo": "~48.0.0",
+    "expo-asset": "~8.9.0",
+    "expo-camera": "~13.2.1",
+    "expo-file-system": "~15.2.2",
+    "expo-gl": "~12.4.0",
+    "expo-gl-cpp": "~12.2.0",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.3",
+    "react-native-svg": "13.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
